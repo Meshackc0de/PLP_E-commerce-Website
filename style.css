@@ -1132,6 +1132,43 @@ footer .copyright{
         width: 100%;
         margin-bottom: 30px;
     }
+
+    /* sproduct mobile */
+
+    #prodetails {
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        width: 100%;
+    }
+    #prodetails .small-img-group{
+        width: 100%;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
+
+    #prodetails  .single-pro-details input{
+        height: 30px;
+        font-size: 15px;
+    }
+
+    /* cart mobile */
+    #card-add {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: -30px;
+    }
+
+    #card-add #coupon {
+        width: 100%;
+    }
+
+    #card-add #subtotal {
+        width: 100%;
+    }
+    
 }
 
 
